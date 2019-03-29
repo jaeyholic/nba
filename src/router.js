@@ -5,13 +5,13 @@ import App from "./App";
 import Layout from "./hoc/Layout";
 
 const Router = () => (
-  <Layout>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Layout>
       <Switch>
         <Route path="/" component={App} exact />
       </Switch>
-    </BrowserRouter>
-  </Layout>
+    </Layout>
+  </BrowserRouter>
 );
 
 export default Router;

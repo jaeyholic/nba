@@ -4,7 +4,7 @@ import style from "./header.module.css";
 
 const logo = () => {
   return (
-    <Link to={{ pathname: "/" }} className={style.logo}>
+    <Link to="/" className={style.logo}>
       <img src="/images/nba_logo.png" alt="nba logo" />
     </Link>
   );
