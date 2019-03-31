@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4987e344-6f24-4383-b2c3-e317193eaa21" name="Default Changelist" comment="setup slider">
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/VideosList/VideosTemplate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/VideosList/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/VideosList/videosList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/Articles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/Elements/PostData.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/Elements/TeamInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/News/Post/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/News/Post/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/Videos/Video/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Articles/Videos/Video/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/widgets/Button/buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Button/buttons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/widgets/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,6 +20,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nba" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -35,35 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#237#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/widgets/VideosList/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1154">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/widgets/VideosList/VideosTemplate.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -72,10 +51,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/widgets/Button/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Articles/Videos/Video/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="156">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Articles/Videos/Video/Header.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/Header.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -84,10 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helpers.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Articles/Articles.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="617">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,6 +131,16 @@
         <option value="$PROJECT_DIR$/src/components/widgets/VideosList/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/News/Post/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Articles/News/Post/Body.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/Elements/TeamInfo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/Elements/PostData.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/News/Post/Header.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/News/Post/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/Articles.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Articles/Videos/Video/Header.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Articles/Videos/Video/index.jsx" />
+        <option value="$PROJECT_DIR$/src/router.js" />
       </list>
     </option>
   </component>
@@ -166,23 +185,7 @@
               <item name="nba" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="NewsList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="VideosList" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +236,7 @@
       <workItem from="1553886275398" duration="6825000" />
       <workItem from="1553939254416" duration="1292000" />
       <workItem from="1553941798866" duration="6529000" />
-      <workItem from="1554048928704" duration="7224000" />
+      <workItem from="1554048928704" duration="11463000" />
     </task>
     <task id="LOCAL-00001" summary="setup slider">
       <created>1553900247054</created>
@@ -246,16 +249,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22557000" />
+    <option name="totallyTimeSpent" value="26796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="810" y="22" width="790" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1846554" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931413" visible="true" weight="0.1846554" />
+      <window_info id="Structure" order="1" sideWeight="0.5006859" side_tool="true" weight="0.1846554" />
+      <window_info id="npm" order="2" sideWeight="0.5006859" side_tool="true" weight="0.1846554" />
+      <window_info id="Favorites" order="3" sideWeight="0.5006859" side_tool="true" weight="0.1846554" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -449,6 +452,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#237#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -461,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/widgets/VideosList/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1154">
+        <state relative-caret-position="1150">
           <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -469,13 +483,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/NewsList/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="52">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/Elements/TeamInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/Elements/PostData.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/Body.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/News/Post/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#237#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/Articles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/Videos/Video/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Articles/Videos/Video/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
