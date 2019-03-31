@@ -12,6 +12,12 @@ const Index = props => {
         {props.cta}
       </div>
     );
+  } else if (props.type === "linkTo") {
+    template = (
+      <Link to={props.linkTo} className={style.blue_button}>
+        {props.cta}
+      </Link>
+    );
   } else {
     template = null;
   }

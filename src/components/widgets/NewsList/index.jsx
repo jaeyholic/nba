@@ -31,10 +31,12 @@ class Index extends Component {
           })
         })
     }
-    axios.get(`${URL}/articles?_start=${start}&_end=${end}`).then(response => {
-      console.log(response.data);
+    axios.get(`${URL}/articles?_start=${start}&_end=${end}`)
+      .then(response => {
       this.setState({
-        newsLists: [...this.state.newsLists, ...response.data]
+        newsLists: [...this.state.newsLists, ...response.data],
+        start,
+        end
       });
     });
   };
