@@ -6,8 +6,8 @@ import { URL } from "../../../helpers";
 
 //CSS Module
 import style from "./NewsList.module.css";
-import Button from '../Button'
-import CardInfo from '../CardInfo'
+import Button from "../Button";
+import CardInfo from "../CardInfo";
 
 class Index extends Component {
   state = {
@@ -23,16 +23,14 @@ class Index extends Component {
   }
 
   request = (start, end) => {
-    if(this.state.teams.length < 1) {
-      axios.get(`${URL}/teams`)
-        .then(response => {
-          this.setState({
-            teams: response.data
-          })
-        })
+    if (this.state.teams.length < 1) {
+      axios.get(`${URL}/teams`).then(response => {
+        this.setState({
+          teams: response.data
+        });
+      });
     }
-    axios.get(`${URL}/articles?_start=${start}&_end=${end}`)
-      .then(response => {
+    axios.get(`${URL}/articles?_start=${start}&_end=${end}`).then(response => {
       this.setState({
         newsLists: [...this.state.newsLists, ...response.data],
         start,
@@ -60,10 +58,44 @@ class Index extends Component {
         >
           <div className={style.newsList_item}>
             <Link to={`/articles/${item.id}`}>
-              <CardInfo teams={this.state.teams} team={item.team} date={item.date} />
+              <CardInfo
+                teams={this.state.teams}
+                team={item.team}
+                date={item.date}
+              />
               <h2>{item.title}</h2>
             </Link>
           </div>
+        </CSSTransition>
+      ));
+    } else if (type === "CardMain") {
+      template = this.state.newsLists.map((item, i) => (
+        <CSSTransition
+          classNames={{
+            enter: style.newsList_wrapper,
+            enterActive: style.newsList_wrapper_enter
+          }}
+          timeout={500}
+          key={i}
+        >
+          <Link to={`/articles/${item.id}`}>
+            <div className={style.flex_wrapper}>
+              <div
+                className={style.left}
+                style={{ background: `url(/images/articles/${item.image})` }}
+              >
+                <div />
+              </div>
+              <div className={style.right}>
+                <CardInfo
+                  teams={this.state.teams}
+                  team={item.team}
+                  date={item.date}
+                />
+                <h2>{item.title}</h2>
+              </div>
+            </div>
+          </Link>
         </CSSTransition>
       ));
     } else {
@@ -77,7 +109,11 @@ class Index extends Component {
       <div>
         <TransitionGroup component="div" className="list">
           {this.renderNews(this.props.type)}
-          <Button type="loadmore" loadMore={this.loadMore} cta="Load More News" />
+          <Button
+            type="loadmore"
+            loadMore={this.loadMore}
+            cta="Load More News"
+          />
         </TransitionGroup>
       </div>
     );

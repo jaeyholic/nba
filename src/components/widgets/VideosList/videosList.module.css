@@ -34,3 +34,7 @@ h2 {
   flex-grow: 1;
   padding: 10px;
 }
+
+.related {
+  margin: 0 5px;
+}
